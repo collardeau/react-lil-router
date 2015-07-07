@@ -43,7 +43,7 @@ React.render(
 ```
 ## Router Component
 
-When you wrap a component with the Router opponent, you have access to the url information in `this.props`.
+When you wrap a component with the Router component, you have access to the url information in `this.props`.
 
 `this.props.route` is a string. It is the first token of the url after the hash.
 
