@@ -26,19 +26,10 @@ class Routes extends React.Component {
 
   render() {
     switch(this.props.route){
-<<<<<<< HEAD
       case 'item':
         return <Item itemId={this.props.params[0]} />
       default:
         return <Home />
-=======
-      case '':
-        return <Home />;
-      case 'item':
-        return <Item itemId={this.props.params[0]} />
-      default:
-        return <About />
->>>>>>> 95cf179... test example with window.location.hash
     }
   }
 }
@@ -50,16 +41,6 @@ React.render(
 );
 
 ```
-<<<<<<< HEAD
-## Router Component
-
-When you wrap a component with the Router component, you have access to the url information in `this.props`.
-
-`this.props.route` is a string. It is the first token of the url after the hash.
->>>>>>> 1f1f814... update README
-=======
->>>>>>> 95cf179... test example with window.location.hash
-
 ## Router Component
 
 When you wrap a component with the Router opponent, you have access to the url information in `this.props`.
@@ -91,8 +72,4 @@ You can use javascript in your handle functions as well:
 window.location.hash = 'account';
 
 ```
-
-
-
-
 
