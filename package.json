@@ -1,10 +1,10 @@
 {
   "name": "react-lil-router",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "Router component",
   "main": "lib/Router.js",
   "scripts": {
-    "start": "webpack-dev-server --colors --content-base demo/",
+    "start": "webpack-dev-server --colors --content-base demo",
     "build": "babel ./src/Router.js -o lib/Router.js",
     "prepublish": "npm run build"
   },
